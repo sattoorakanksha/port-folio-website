@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .hero-section {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 8rem 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .about-section, .projects-section, .contact-section {
+    padding: 4rem 0;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .project {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 45%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
