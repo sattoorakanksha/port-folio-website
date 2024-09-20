@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm a Web Developer.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>"Hello, I'm Satoor Akanksha, a student at Vardhaman College of Engineering. I have a strong interest in technology and enjoy learning new things. Alongside my academic pursuits, I'm passionate about exploring diverse cultures, hobbies, and creative ideas. I believe in the power of meaningful connections and love sharing experiences with others."</p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Restaurant Menu Page</h3>
+          <p>The Restaurant Menu Page is a visually appealing and user-friendly web page designed to display a restaurant’s offerings in a well-structured format. It features different menu categories such as appetizers, main courses, desserts, and beverages, with each item showcasing its name, description, price, and an accompanying image. The page includes interactive features like category filtering, where users can view specific types of dishes, and hover effects that highlight items as users scroll.</p>
+        </div>
+        <div class="project">
+          <h3>To-Do List with Local Storage</h3>
+          <p>The To-Do List with Local Storage is a simple yet efficient web application that helps users manage tasks effectively. It allows users to input tasks, add them to a dynamic list, mark tasks as complete, and delete them as needed. Each task is displayed with options for interaction, such as marking it completed or removing it from the list.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
